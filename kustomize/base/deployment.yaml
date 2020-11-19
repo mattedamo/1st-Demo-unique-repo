@@ -2,23 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: hello-gitops
-  name: hello-gitops
+    app: 1st-demo-unique-repo
+  name: 1st-demo-unique-repo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello-gitops
+      app: 1st-demo-unique-repo
   template:
     metadata:
       labels:
-        app: hello-gitops
+        app: 1st-demo-unique-repo
     spec:
       containers:
-        - image: hello-gitops
-          name: hello-gitops
+        - image: 1st-demo-unique-repo
+          name: 1st-demo-unique-repo
           ports:
             - name: http
               containerPort: 8080
-      imagePullSecrets:
-      - name: registry-esys

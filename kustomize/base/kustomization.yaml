@@ -4,8 +4,9 @@ resources:
 - deployment.yaml
 - service.yaml
 - ingress.yaml
-namespace: hello-gitops
+- namespace.yaml
+namespace: 1st-demo-unique-repo
 images:
-- name: hello-gitops
-  newName: emmsys/hello-gitops
+- name: 1st-demo
+  newName: mattedamo26/first-demo-single-repo
   newTag: bd0b95a1e7e31fd3a30c0a979ffbfc45761b001f
