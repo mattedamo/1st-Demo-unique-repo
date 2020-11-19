@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
-  name: hello-gitops
+  name: 1st-demo-unique-repo
 spec:
   rules:
     - http:
@@ -9,5 +9,5 @@ spec:
           - path: /
             pathType: Prefix
             backend:
-              serviceName: hello-gitops
+              serviceName: 1st-demo-unique-repo
               servicePort: http
