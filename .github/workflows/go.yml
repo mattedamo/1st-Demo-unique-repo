@@ -49,7 +49,7 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       run: |
        cd kustomize/base
-       kustomize edit set image 1st-demo-unique-repo=$DOCKER_USERNAME/1st-demo-unique-repo:$GITHUB_SHA
+       kustomize edit set image first-demo-unique-repo=$DOCKER_USERNAME/first-demo-unique-repo:$GITHUB_SHA
        cat kustomization.yaml
         
     - name: Commit files
