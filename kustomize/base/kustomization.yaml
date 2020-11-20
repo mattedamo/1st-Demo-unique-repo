@@ -9,4 +9,4 @@ namespace: 1st-demo-unique-repo
 images:
 - name: 1st-demo-unique-repo
   newName: mattedamo26/1st-demo-unique-repo
-  newTag: 42ea6770ae44765bd5fdd9a1d0588ebe666f695f
+  newTag: 62b2f3b97f75d2615a1b572325cdcad71be319f5
