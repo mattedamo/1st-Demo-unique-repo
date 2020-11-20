@@ -1,0 +1,1 @@
+mettere apposto il fatto che viene sovrascritto male il file nel kustomize yaml, quando si genera la nuova versione di un'immagine
